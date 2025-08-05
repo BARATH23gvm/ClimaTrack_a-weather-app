@@ -12,10 +12,10 @@ class WeatherApi extends StatelessWidget {
   String inputLoc="salem";
   Future fetchDataUsingAPI() async {
     var url = Uri.parse( //ma
-      'https://api.tomorrow.io/v4/weather/realtime?location=salem&apikey=KE2m3mn2dvt7ipMh3VhgRQ8sWrMNLhSU',
+      'https://api.tomorrow.io/v4/weather/realtime?location=salem&apikey=KE2m3',
     );
     var url2 = Uri.parse( //ba
-      'https://api.tomorrow.io/v4/weather/realtime?location=$inputLocation&apikey=59HR6ofCRGiWJXOIxKPgiw4xmtcsKM4V',
+      'https://api.tomorrow.io/v4/weather/realtime?location=$inputLocation&apikey=59HR6',
     );
 
     try {
